@@ -1,0 +1,87 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "beaa2170-bc4a-4a16-b274-331db95d2ad8": {
+        "id": "beaa2170-bc4a-4a16-b274-331db95d2ad8",
+        "parent": null,
+        "name": "testjson",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "d9717563-37b2-4133-8c65-63a75494c728",
+          "9a47ed24-ae39-4841-8302-4a2ee4d5e38a"
+        ],
+        "isRemovable": false,
+        "filePath": "testjson"
+      },
+      "d9717563-37b2-4133-8c65-63a75494c728": {
+        "id": "d9717563-37b2-4133-8c65-63a75494c728",
+        "parent": "beaa2170-bc4a-4a16-b274-331db95d2ad8",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testjson/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "9a47ed24-ae39-4841-8302-4a2ee4d5e38a": {
+        "id": "9a47ed24-ae39-4841-8302-4a2ee4d5e38a",
+        "parent": "beaa2170-bc4a-4a16-b274-331db95d2ad8",
+        "name": "new.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testjson/new.json"
+      }
+    },
+    "rootNode": "beaa2170-bc4a-4a16-b274-331db95d2ad8",
+    "openFiles": [
+      "d9717563-37b2-4133-8c65-63a75494c728",
+      "9a47ed24-ae39-4841-8302-4a2ee4d5e38a"
+    ],
+    "currentFileId": "9a47ed24-ae39-4841-8302-4a2ee4d5e38a",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testjson",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576744053806
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testjson",
+      "url": "https://github.com/Kumudikatest/testjson"
+    }
+  }
+}
